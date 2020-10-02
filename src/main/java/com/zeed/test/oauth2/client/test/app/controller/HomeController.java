@@ -10,7 +10,7 @@ import java.security.Principal;
 public class HomeController {
 
 
-    @GetMapping("/home")
+    @GetMapping("/products")
     public String home(Model model, Principal principal) {
         return "home";
     }
